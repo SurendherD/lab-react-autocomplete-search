@@ -1,0 +1,26 @@
+body, html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input,button{
+  height: 2rem;
+  border-radius: 10px;
+}
+
+.input{
+  width: 25rem;
+  font-size: 25px;
+}
+
+button{
+  cursor: pointer;
+  font-size: 25px;
+}
+
+input:focus {
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
